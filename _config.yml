@@ -1,0 +1,23 @@
+title: UC CubeCats
+description: University of Cincinnati student CubeSat club
+url: "https://acmatuc.org"
+ga: UA-38523596-2
+
+social:
+  github: UCCubeCats
+  twitter: UCCubeCats
+  email: UCCubeCats
+
+markdown: kramdown
+theme: minima
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

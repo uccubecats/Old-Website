@@ -1,0 +1,13 @@
+<!doctype html>
+<html>    
+    {% include header.html %}
+    <body class="grey lighten-2" style="overflow:auto">
+            {% include nav.html %}
+                <div class="col s12 l8 offset-l2 row" style="overflow:auto;padding: 0 0 0 0;margin: 0 0 0 0"">
+                    <div class="col s12 card grey lighten-4" style="padding: 0 0 0 0; margin: 0 0 0 0">
+                            {{ content }}
+                            {% include footer.html %}
+                    </div>
+                </div>
+    </body>
+</html>
